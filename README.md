@@ -1,7 +1,7 @@
 chamaleon-mx
 ---
 
-![logo](https://github.com/mxochicale/chamaleon-mx/blob/master/references/logo/chamaleon-logo-v01.png)
+![logo](https://github.com/mxochicale/chamaleon-mx/blob/master/references/logo/chamaleon-logo-v02.png)
 
 
 
