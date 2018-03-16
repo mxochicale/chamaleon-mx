@@ -1,7 +1,7 @@
-CHAllenges of MAchile LEarngin for mexico using OpeN datasets (chamaleon-project)
+chamaleon-mx
 ---
 
-
+![logo](https://events.opensuse.org/system/conferences/logos/000/000/044/original/alext.png)
 
 
 
