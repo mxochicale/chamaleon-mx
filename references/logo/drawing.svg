@@ -27,7 +27,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="390.00547"
+     inkscape:cx="236.96736"
      inkscape:cy="-105.77376"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -122,20 +122,20 @@
          x="3.8908958"
          y="265.20685"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.60927677px;line-height:30.00000119%;font-family:'STIX Math';-inkscape-font-specification:'STIX Math';text-align:start;text-anchor:start;fill:#ff0000;stroke-width:0.16606578px"
-         id="tspan869">CHAllenges of</tspan><tspan
+         id="tspan869">CHAllenges in</tspan><tspan
          sodipodi:role="line"
          x="3.8908958"
-         y="273.51013"
+         y="273.51016"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.60927677px;line-height:30.00000119%;font-family:'STIX Math';-inkscape-font-specification:'STIX Math';text-align:start;text-anchor:start;fill:#000080;stroke-width:0.16606578px"
          id="tspan873">MAchine</tspan><tspan
          sodipodi:role="line"
          x="3.8908958"
-         y="281.81342"
+         y="281.81345"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.60927677px;line-height:30.00000119%;font-family:'STIX Math';-inkscape-font-specification:'STIX Math';text-align:start;text-anchor:start;fill:#00ff00;stroke-width:0.16606578px"
-         id="tspan833">LEarning for mexico using</tspan><tspan
+         id="tspan833">LEarning using mexican</tspan><tspan
          sodipodi:role="line"
          x="3.8908958"
-         y="290.1167"
+         y="290.11673"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.60927677px;line-height:30.00000119%;font-family:'STIX Math';-inkscape-font-specification:'STIX Math';text-align:start;text-anchor:start;fill:#ff00ff;stroke-width:0.16606578px"
          id="tspan881">OpeN datasets</tspan></text>
     <text
