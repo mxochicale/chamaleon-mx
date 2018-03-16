@@ -1,5 +1,6 @@
-Open Datasets for Machine Learning for Mexico
+CHAllenges of MAchile LEarngin for mexico using OpeN datasets (chamaleon-project)
 ---
+
 
 
 
