@@ -1,6 +1,5 @@
-Deep Learning for Mexico Using Open Data
+Open Datasets for Machine Learning for Mexico
 ---
-
 
 
 
