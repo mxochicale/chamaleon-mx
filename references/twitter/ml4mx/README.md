@@ -1,6 +1,9 @@
 
-* 
-
+* `https://twitter.com/_mxochicale/status/976832686374432771`
+Creo en #Mexico, #MachineLearing, #SoftwareLIBRE y #DatosAbiertos
+Nos vemos en el panel del 1er Simposio Virtual  #ML4MX @ML4MX
+Replica/copia/aprende/mejora/comparte: 
+https://github.com/mxochicale/chamaleon-mx
 
 
 
