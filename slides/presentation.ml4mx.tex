@@ -1,0 +1,269 @@
+\documentclass[compress]{beamer}
+
+%--------------------------------------------------------------------------
+% Common packages
+%--------------------------------------------------------------------------
+\usepackage[english]{babel}
+\usepackage{pgfpages} % required for notes on second screen
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{multicol}
+\usepackage[normalem]{ulem}
+
+\usepackage{tabularx,ragged2e}
+\usepackage{booktabs}
+\usepackage{marvosym}
+
+
+\usepackage{fontawesome}
+% \usepackage[tt=false, type1=true]{libertine}
+% \usepackage[T1]{fontenc}
+
+
+
+
+%--------------------------------------------------------------------------
+% Load theme
+%--------------------------------------------------------------------------
+\usetheme{hri}
+
+
+\usepackage{tikz}
+\usetikzlibrary{patterns,shapes,fpu,fit,calc,mindmap,backgrounds,positioning,svg.path}
+
+\tikzset{
+  invisible/.style={opacity=0},
+  visible on/.style={alt={#1{}{invisible}}},
+  alt/.code args={<#1>#2#3}{%
+    \alt<#1>{\pgfkeysalso{#2}}{\pgfkeysalso{#3}} % \pgfkeysalso doesn't change the path
+  },
+}
+
+
+\graphicspath{{figs/}}
+
+
+
+%--------------------------------------------------------------------------
+% General presentation settings
+%--------------------------------------------------------------------------
+\title{Challenges in Reproducibility of \\  Machine Learning, Open Source Tools and Mexican Open Datasets} 
+\subtitle{ML4MX2018} 
+
+\date{{\bf 23 March 2018}}
+\author{Miguel P Xochicale}
+\institute{School of Engineering \\{\bf University of Birmingham}}
+
+
+
+%--------------------------------------------------------------------------
+% Notes settings
+%--------------------------------------------------------------------------
+%\setbeameroption{show notes on second screen}
+%\setbeameroption{hide notes}
+
+
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\licenseframe{https://github.com/mxochicale/chamaleon-mx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\maketitle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\closingtitle
+
+
+
+
+%--------------------------------------------------------------------------
+% Content
+%--------------------------------------------------------------------------
+%
+\section{Reproducibility in ML \& AI}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Reproducibility}
+{
+
+    \paper{Gundersen O. E., {\bf Missing data hinder replication of AI studies}, Feb 2018}
+
+    \begin{frame}{Reproducibility problem in AI}
+	\LARGE
+
+	``In Artificial Intelligence, only 6\% of 400 included code.`` 
+  
+	
+
+   \badge{ml4mx-logo-v01}
+ \end{frame}
+
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Reproducibility}
+{
+
+    \paper{Geib C., {\bf Scientists Can’t Replicate AI Studies. That’s Bad News.}, Feb 2018}
+
+    \begin{frame}{Reproducibility problem in AI}
+	\LARGE
+
+	``Most Artificial Intelligence researchers don't report the source code, or the data that AI are trained on.`` 
+   
+
+   \badge{ml4mx-logo-v01}
+\end{frame}
+
+
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Reproducibility}
+{
+
+    \paper{Warden P., {\bf The Machine Learning Reproducibility Crisis.}, March 2018}
+
+    \begin{frame}{Reproducibility Crisis in ML}
+	\LARGE
+
+	``Machine Learning is by far the worst environment I’ve ever found for collaborating and keeping track of changes.``
+
+   \badge{ml4mx-logo-v01}
+   \end{frame}
+
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsection{Reproducibility}
+%{
+%
+%    \paper{Ioannidis J. P. A., {\bf Why Most Published Research Findings Are False.}, 2015}
+%
+%    \begin{frame}{Reproducibility Crisis}
+%	\LARGE
+%
+%	``It can be proven that most claimed research findings are false.`` 
+%   \end{frame}
+%
+%
+%}
+%
+
+
+
+
+
+\section{Open Source Software Tools}
+
+\subsection{The Impressive Growth of R and Python}
+
+
+
+%\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\imageframe[caption=The Impressive Growth of R (Robinson 2017)]{opentools/growth-r}
+
+
+%\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\imageframe[caption=The Impressive Growth of Python (Robinson 2017)]{opentools/growth-python}
+
+%\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\imageframe[caption=Learn to use GitHub (https://github.com/) ]{opentools/github}
+
+
+
+
+
+
+
+\section{Mexican Open Datasets}
+
+
+
+
+
+\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\begin{frame}{Mexican Open Datasets?}
+
+
+* Portal de Datos Abiertos del Gobierno de la República [https://datos.gob.mx/]
+
+          \begin{itemize}
+              \item Calidad de Aire de SINAICA [Formato json]
+              \item Condiciones Atmosf\'ericas [Formato json]
+              \item Gasolineras y Precios Comerciales de Gasolina y Diesel [Formato xml]
+	      \item Contrataciones Abiertas [Formato json]
+          \end{itemize}
+
+* Comunidad de pr\'actica de datos abiertos en Mexico [twitter @OpenDataMX] \\
+
+
+* Construimos herramientas digitales para fortalecer a la ciudadan\'ia. [twitter @CivicaDigical]
+
+
+\badge{ml4mx-logo-v01}
+\end{frame}
+}
+
+
+\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\imageframe[caption=PREGUNTAS?]{mexopendatasets/questions-ml4mx}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{CLOSING}
+{
+
+    \paper{Brett M, {\bf https://github.com/matthew-brett/thw-intro.}, March 2018}
+
+
+    \begin{frame}{Take Away Messages}
+	\LARGE
+
+	\begin{itemize}
+	\item chose LIBRE over close, SIMPLE over easy
+	\item learn / teach / build / share
+	\item give your stuff away 
+	\item LEARN FROM:
+	https://github.com/ml4mx \\
+	https://rescience.github.io 
+	\end{itemize}
+
+
+
+   \badge{ml4mx-logo-v01}
+   \end{frame}
+
+}
+
+
+\section{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\closingtitle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\licenseframe{https://github.com/mxochicale/chamaleon-mx}
+
+
+\end{document}
